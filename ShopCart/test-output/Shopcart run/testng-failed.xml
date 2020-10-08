@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Shopcart run]">
+  <test name="Shopcart Test(failed)">
+    <classes>
+      <class name="com.shopcart.qa.testcases.CategoriesPageTest">
+        <methods>
+          <include name="clickonaddcategories"/>
+          <include name="Setup"/>
+          <include name="verifyproducttiltle"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.CategoriesPageTest -->
+    </classes>
+  </test> <!-- Shopcart Test(failed) -->
+</suite> <!-- Failed suite [Shopcart run] -->

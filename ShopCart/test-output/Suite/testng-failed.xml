@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.shopcart.qa.ExtentreportListener.TestNGListener"/>
+    <listener class-name="com.shopcart.qa.ExtentreportListener.ExtentreportNG"/>
+  </listeners>
+  <test name="ShopcartTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.shopcart.qa.testcases.ProductAttributePageTest">
+        <methods>
+          <include name="checkcancelbtn"/>
+          <include name="verifysearchitem"/>
+          <include name="checkselectall"/>
+          <include name="Setup"/>
+          <include name="shutDown"/>
+          <include name="checktitle"/>
+          <include name="checkimport"/>
+          <include name="checkviewbtn"/>
+          <include name="checkunselectall"/>
+          <include name="verifyarrowclick"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.ProductAttributePageTest -->
+      <class name="com.shopcart.qa.testcases.MonitoringPageTest">
+        <methods>
+          <include name="checksearching"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.MonitoringPageTest -->
+    </classes>
+  </test> <!-- ShopcartTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9134" started-at="2019-08-05T16:55:39Z" finished-at="2019-08-05T16:55:48Z">
+    <groups>
+      <group name="Regression">
+        <method signature="UserPageTest.verifyLoginPageBtn()[pri:4, instance:com.admin.qa.testcases.UserPageTest@19f99ea]" name="verifyLoginPageBtn" class="com.admin.qa.testcases.UserPageTest"/>
+        <method signature="UserPageTest.verifyUserPageLabel()[pri:3, instance:com.admin.qa.testcases.UserPageTest@19f99ea]" name="verifyUserPageLabel" class="com.admin.qa.testcases.UserPageTest"/>
+        <method signature="UserPageTest.verifyUserPageTitle()[pri:2, instance:com.admin.qa.testcases.UserPageTest@19f99ea]" name="verifyUserPageTitle" class="com.admin.qa.testcases.UserPageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="9134" started-at="2019-08-05T16:55:39Z" finished-at="2019-08-05T16:55:48Z">
+      <class name="com.admin.qa.testcases.UserPageTest">
+        <test-method status="PASS" signature="userPageSetup()[pri:0, instance:com.admin.qa.testcases.UserPageTest@19f99ea]" name="userPageSetup" is-config="true" duration-ms="8312" started-at="2019-08-05T22:25:39Z" finished-at="2019-08-05T22:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userPageSetup -->
+        <test-method status="PASS" signature="verifyUserLink()[pri:1, instance:com.admin.qa.testcases.UserPageTest@19f99ea]" name="verifyUserLink" duration-ms="327" started-at="2019-08-05T22:25:47Z" finished-at="2019-08-05T22:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLink -->
+        <test-method status="PASS" signature="verifyUserPageTitle()[pri:2, instance:com.admin.qa.testcases.UserPageTest@19f99ea]" name="verifyUserPageTitle" duration-ms="15" started-at="2019-08-05T22:25:47Z" description="Validate User Page Title" finished-at="2019-08-05T22:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPageTitle -->
+        <test-method status="PASS" signature="verifyUserPageLabel()[pri:3, instance:com.admin.qa.testcases.UserPageTest@19f99ea]" name="verifyUserPageLabel" duration-ms="63" started-at="2019-08-05T22:25:47Z" description="Validate User Page Label" finished-at="2019-08-05T22:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPageLabel -->
+        <test-method status="PASS" signature="verifyLoginPageBtn()[pri:4, instance:com.admin.qa.testcases.UserPageTest@19f99ea]" name="verifyLoginPageBtn" duration-ms="58" started-at="2019-08-05T22:25:47Z" description="Validate Add User Page Button" finished-at="2019-08-05T22:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageBtn -->
+        <test-method status="PASS" signature="verifyadduser()[pri:5, instance:com.admin.qa.testcases.UserPageTest@19f99ea]" name="verifyadduser" duration-ms="319" started-at="2019-08-05T22:25:47Z" finished-at="2019-08-05T22:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyadduser -->
+      </class> <!-- com.admin.qa.testcases.UserPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9406" started-at="2020-08-10T10:36:28Z" finished-at="2020-08-10T10:36:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9406" started-at="2020-08-10T10:36:28Z" finished-at="2020-08-10T10:36:37Z">
+      <class name="com.jbk.MainPageTest">
+        <test-method status="PASS" signature="set()[pri:0, instance:com.jbk.MainPageTest@651fd0]" name="set" is-config="true" duration-ms="9050" started-at="2020-08-10T16:06:28Z" finished-at="2020-08-10T16:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="checktitle()[pri:0, instance:com.jbk.MainPageTest@651fd0]" name="checktitle" duration-ms="124" started-at="2020-08-10T16:06:37Z" finished-at="2020-08-10T16:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktitle -->
+        <test-method status="PASS" signature="checktitle1()[pri:0, instance:com.jbk.MainPageTest@651fd0]" name="checktitle1" duration-ms="114" started-at="2020-08-10T16:06:37Z" finished-at="2020-08-10T16:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktitle1 -->
+        <test-method status="PASS" signature="checktitle2()[pri:0, instance:com.jbk.MainPageTest@651fd0]" name="checktitle2" duration-ms="78" started-at="2020-08-10T16:06:37Z" finished-at="2020-08-10T16:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktitle2 -->
+      </class> <!-- com.jbk.MainPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Shopcart]">
+  <listeners>
+    <listener class-name="com.shopcart.qa.util.TestNGListener"/>
+    <listener class-name="com.shopcart.qa.ExtentreportListener.ExtentreportNG"/>
+  </listeners>
+  <test name="ShopcartTest(failed)">
+    <classes>
+      <class name="com.shopcart.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="teardown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.shopcart.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- ShopcartTest(failed) -->
+</suite> <!-- Failed suite [Shopcart] -->

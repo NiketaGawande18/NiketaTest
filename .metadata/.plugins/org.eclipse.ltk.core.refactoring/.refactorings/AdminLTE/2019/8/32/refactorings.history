@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.admin.qa.util.TestDataDrovider&apos; to &apos;TestDataProvider&apos;&#x0D;&#x0A;- Original project: &apos;AdminLTE&apos;&#x0D;&#x0A;- Original element: &apos;com.admin.qa.util.TestDataDrovider&apos;&#x0D;&#x0A;- Renamed element: &apos;com.admin.qa.util.TestDataProvider&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TestDataDrovider&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.admin.qa.util{TestDataDrovider.java[TestDataDrovider" matchStrategy="1" name="TestDataProvider" qualified="false" references="true" similarDeclarations="false" stamp="1565021949979" textual="false" version="1.0"/>
+</session>

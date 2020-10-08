@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2967" started-at="2020-05-06T11:01:03Z" finished-at="2020-05-06T11:01:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2967" started-at="2020-05-06T11:01:03Z" finished-at="2020-05-06T11:01:06Z">
+      <class name="PostPutDeleteExample">
+        <test-method status="PASS" signature="test2()[pri:0, instance:PostPutDeleteExample@19f379]" name="test2" duration-ms="2942" started-at="2020-05-06T16:31:03Z" finished-at="2020-05-06T16:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- PostPutDeleteExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
